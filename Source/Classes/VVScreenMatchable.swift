@@ -2,9 +2,9 @@
 //  Copyright © 2021 chinaxxren. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-public protocol ScreenMatchable {
+public protocol VVScreenMatchable {
     func phone(_ value: Self) -> Self
     func pad(_ value: Self) -> Self
     func i4(_ value: Self) -> Self
@@ -18,78 +18,95 @@ public protocol ScreenMatchable {
     func p105(_ value: Self) -> Self
     func p11(_ value: Self) -> Self
     func p129(_ value: Self) -> Self
-    func match(_ screen: Screen, _ value: Self) -> Self
-    func match(_ screens: [Screen], _ value: Self) -> Self
+    func match(_ screen: VVScreen, _ value: Self) -> Self
+    func match(_ screens: [VVScreen], _ value: Self) -> Self
 }
 
-extension ScreenMatchable {
+extension VVScreenMatchable {
     public func phone(_ value: Self) -> Self {
         return UI_USER_INTERFACE_IDIOM() == .phone ? value : self
     }
-    
+
     public func pad(_ value: Self) -> Self {
         return UI_USER_INTERFACE_IDIOM() == .pad ? value : self
     }
-    
+
     public func i4(_ value: Self) -> Self {
         return match(.i4, value)
     }
-    
+
     public func iSE(_ value: Self) -> Self {
         return match(.iSE, value)
     }
-    
+
     public func i8(_ value: Self) -> Self {
         return match(.i8, value)
     }
-    
+
     public func i8P(_ value: Self) -> Self {
         return match(.i8P, value)
     }
-    
+
     public func iX(_ value: Self) -> Self {
         return match(.iX, value)
     }
-    
+
     public func iXR(_ value: Self) -> Self {
         return match(.iXR, value)
     }
-    
+
     public func iXMAX(_ value: Self) -> Self {
         return match(.iXMAX, value)
     }
-    
+
     public func p97(_ value: Self) -> Self {
         return match(.p97, value)
     }
-    
+
     public func p105(_ value: Self) -> Self {
         return match(.p105, value)
     }
-    
+
     public func p11(_ value: Self) -> Self {
         return match(.p11, value)
     }
-    
+
     public func p129(_ value: Self) -> Self {
         return match(.p129, value)
     }
-    
-    public func match(_ screen: Screen, _ value: Self) -> Self {
-        return Screen.current == screen ? value : self
+
+    public func match(_ screen: VVScreen, _ value: Self) -> Self {
+        return VVScreen.current == screen ? value : self
     }
-    
-    public func match(_ screens: [Screen], _ value: Self) -> Self {
-        return screens.contains(Screen.current) ? value : self
+
+    public func match(_ screens: [VVScreen], _ value: Self) -> Self {
+        return screens.contains(VVScreen.current) ? value : self
     }
 }
 
-extension Int: ScreenMatchable {}
-extension Float: ScreenMatchable {}
-extension Double: ScreenMatchable {}
-extension String: ScreenMatchable {}
-extension CGRect: ScreenMatchable {}
-extension CGSize: ScreenMatchable {}
-extension CGFloat: ScreenMatchable {}
-extension CGPoint: ScreenMatchable {}
-extension UIEdgeInsets: ScreenMatchable {}
+extension Int: VVScreenMatchable {
+}
+
+extension Float: VVScreenMatchable {
+}
+
+extension Double: VVScreenMatchable {
+}
+
+extension String: VVScreenMatchable {
+}
+
+extension CGRect: VVScreenMatchable {
+}
+
+extension CGSize: VVScreenMatchable {
+}
+
+extension CGFloat: VVScreenMatchable {
+}
+
+extension CGPoint: VVScreenMatchable {
+}
+
+extension UIEdgeInsets: VVScreenMatchable {
+}

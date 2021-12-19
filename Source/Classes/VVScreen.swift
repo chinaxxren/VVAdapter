@@ -5,7 +5,7 @@
 import Foundation
 import UIKit
 
-/// Screen
+/// VVScreen
 ///
 /// - i4: iPhone 4s
 /// - iSE: iPhone SE
@@ -18,7 +18,7 @@ import UIKit
 /// - p105: iPad 10.5 inch
 /// - p11: iPad 11 inch
 /// - p129: iPad 12.9 inch
-public enum Screen {
+public enum VVScreen {
     case unknown
     case i4
     case iSE
@@ -33,51 +33,51 @@ public enum Screen {
     case p129
 }
 
-extension Screen {
-    public static let current: Screen = {
+extension VVScreen {
+    public static let current: VVScreen = {
         let width = min(UIScreen.main.bounds.size.width, UIScreen.main.bounds.size.height)
         let height = max(UIScreen.main.bounds.size.width, UIScreen.main.bounds.size.height)
         let scale = UIScreen.main.scale
         let size = CGSize(width: width, height: height)
-        
+
         // For iPad2
-        if size == Screen.p97.size {
+        if size == VVScreen.p97.size {
             return .p97
         }
-        
-        let nativeSize = CGSize(width: width*scale, height: height*scale)
-        
+
+        let nativeSize = CGSize(width: width * scale, height: height * scale)
+
         switch nativeSize {
-        case Screen.i4.nativeSize:
+        case VVScreen.i4.nativeSize:
             return .i4
-        case Screen.iSE.nativeSize:
+        case VVScreen.iSE.nativeSize:
             return .iSE
-        case Screen.i8.nativeSize:
+        case VVScreen.i8.nativeSize:
             return .i8
-        case Screen.i8P.nativeSize:
+        case VVScreen.i8P.nativeSize:
             return .i8P
-        case Screen.iX.nativeSize:
+        case VVScreen.iX.nativeSize:
             return .iX
-        case Screen.iXR.nativeSize:
+        case VVScreen.iXR.nativeSize:
             return .iXR
-        case Screen.iXMAX.nativeSize:
+        case VVScreen.iXMAX.nativeSize:
             return .iXMAX
-        case Screen.p97.nativeSize:
+        case VVScreen.p97.nativeSize:
             return .p97
-        case Screen.p105.nativeSize:
+        case VVScreen.p105.nativeSize:
             return .p105
-        case Screen.p11.nativeSize:
+        case VVScreen.p11.nativeSize:
             return .p11
-        case Screen.p129.nativeSize:
+        case VVScreen.p129.nativeSize:
             return .p129
-        default :
+        default:
             return .unknown
         }
     }()
 }
 
 // MARK: - @see https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html#//apple_ref/doc/uid/TP40013599-CH108-SW1
-extension Screen {
+extension VVScreen {
     var size: CGSize {
         switch self {
         case .unknown:
@@ -106,7 +106,7 @@ extension Screen {
             return CGSize(width: 1024, height: 1366)
         }
     }
-    
+
     var scale: CGFloat {
         switch self {
         case .unknown:
@@ -135,8 +135,8 @@ extension Screen {
             return 2
         }
     }
-    
+
     var nativeSize: CGSize {
-        return CGSize(width: size.width*scale, height: size.height*scale)
+        return CGSize(width: size.width * scale, height: size.height * scale)
     }
 }

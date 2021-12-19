@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		081A6B7032BD9235A50DF79A6BB1F1A5 /* ScreenMatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4506561CA2BE1A440C3E93405E89AD /* ScreenMatchable.swift */; };
+		081A6B7032BD9235A50DF79A6BB1F1A5 /* VVScreenMatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4506561CA2BE1A440C3E93405E89AD /* VVScreenMatchable.swift */; };
 		279C85ECF7022F3E1BC28F611F13353E /* Pods-VVAdapterDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC177AECC253669768E006C4A3C84E5D /* Pods-VVAdapterDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B087A799F2A940AFB1AD99751E14F66 /* VVAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA59A4487BB3EFAE8278BF03DA71E83 /* VVAdapter-dummy.m */; };
 		6BA28DE562AED6AA79E1E76641477A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6E09C002D470DDD21F72293EF3FCC359 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40038F162757381C853F95C41AB1CFC2 /* UI.swift */; };
+		6E09C002D470DDD21F72293EF3FCC359 /* VVUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40038F162757381C853F95C41AB1CFC2 /* VVUI.swift */; };
 		A70D4994C43BA4620713EF7E6AA00E94 /* VVAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B760691339958C0FD3BC1896A5C9DB8 /* VVAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1F5D5568F3A625A2FBDF969E2ABD6B0 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6C49C3271B67024CA9790468E4B5E /* Screen.swift */; };
+		B1F5D5568F3A625A2FBDF969E2ABD6B0 /* VVScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6C49C3271B67024CA9790468E4B5E /* VVScreen.swift */; };
 		D42005A0718629250233820E998B3E25 /* Pods-VVAdapterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D2A4969D3C373CC692DA2992D36E9 /* Pods-VVAdapterDemo-dummy.m */; };
-		E3A0296C65E908FD65AB1B1B6E8F2C95 /* Adaptation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9CA1CDF6B4D31318A7F16F41892F29 /* Adaptation.swift */; };
+		E3A0296C65E908FD65AB1B1B6E8F2C95 /* VVAdaptation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9CA1CDF6B4D31318A7F16F41892F29 /* VVAdaptation.swift */; };
 		EAEA36883ED8004A96C43CE08A23CA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +36,9 @@
 		3288DD7C88E84E5A59EEC749168DE6CC /* Pods-VVAdapterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VVAdapterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C29B0BF0FA21860F67E922F1ADBFA3E /* Pods-VVAdapterDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VVAdapterDemo"; path = Pods_VVAdapterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4D2A4969D3C373CC692DA2992D36E9 /* Pods-VVAdapterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVAdapterDemo-dummy.m"; sourceTree = "<group>"; };
-		40038F162757381C853F95C41AB1CFC2 /* UI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UI.swift; path = Source/Classes/UI.swift; sourceTree = "<group>"; };
+		40038F162757381C853F95C41AB1CFC2 /* VVUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVUI.swift; path = Source/Classes/VVUI.swift; sourceTree = "<group>"; };
 		5B056FF6A545207A9061F2663E943708 /* Pods-VVAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
-		65D6C49C3271B67024CA9790468E4B5E /* Screen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Screen.swift; path = Source/Classes/Screen.swift; sourceTree = "<group>"; };
+		65D6C49C3271B67024CA9790468E4B5E /* VVScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVScreen.swift; path = Source/Classes/VVScreen.swift; sourceTree = "<group>"; };
 		6B4B39B732FA0253353CBC0E9DE4B5D4 /* VVAdapter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVAdapter; path = VVAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B760691339958C0FD3BC1896A5C9DB8 /* VVAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVAdapter-umbrella.h"; sourceTree = "<group>"; };
 		6FA59A4487BB3EFAE8278BF03DA71E83 /* VVAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVAdapter-dummy.m"; sourceTree = "<group>"; };
@@ -49,9 +49,9 @@
 		AC177AECC253669768E006C4A3C84E5D /* Pods-VVAdapterDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVAdapterDemo-umbrella.h"; sourceTree = "<group>"; };
 		AD8A5BA3FAA3E0D994D9B36008E8CE9E /* VVAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VVAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C689BDA3E811BED11C408962985F4627 /* Pods-VVAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		CB9CA1CDF6B4D31318A7F16F41892F29 /* Adaptation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Adaptation.swift; path = Source/Classes/Adaptation.swift; sourceTree = "<group>"; };
+		CB9CA1CDF6B4D31318A7F16F41892F29 /* VVAdaptation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVAdaptation.swift; path = Source/Classes/VVAdaptation.swift; sourceTree = "<group>"; };
 		D7AA464D6C3D610386001751732FCE3E /* VVAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVAdapter.debug.xcconfig; sourceTree = "<group>"; };
-		DE4506561CA2BE1A440C3E93405E89AD /* ScreenMatchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenMatchable.swift; path = Source/Classes/ScreenMatchable.swift; sourceTree = "<group>"; };
+		DE4506561CA2BE1A440C3E93405E89AD /* VVScreenMatchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVScreenMatchable.swift; path = Source/Classes/VVScreenMatchable.swift; sourceTree = "<group>"; };
 		DED4A08C67449CB184DC0ABDF369D698 /* VVAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVAdapter-prefix.pch"; sourceTree = "<group>"; };
 		F0EE5B1288F5D44334D3D43A21A13E4F /* Pods-VVAdapterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVAdapterDemo-frameworks.sh"; sourceTree = "<group>"; };
 		F555A722A7411885465DCA121352462F /* Pods-VVAdapterDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVAdapterDemo-Info.plist"; sourceTree = "<group>"; };
@@ -80,10 +80,10 @@
 		08A0957DC818F1577D91AAEC60157F30 /* VVAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				CB9CA1CDF6B4D31318A7F16F41892F29 /* Adaptation.swift */,
-				65D6C49C3271B67024CA9790468E4B5E /* Screen.swift */,
-				DE4506561CA2BE1A440C3E93405E89AD /* ScreenMatchable.swift */,
-				40038F162757381C853F95C41AB1CFC2 /* UI.swift */,
+				CB9CA1CDF6B4D31318A7F16F41892F29 /* VVAdaptation.swift */,
+				65D6C49C3271B67024CA9790468E4B5E /* VVScreen.swift */,
+				DE4506561CA2BE1A440C3E93405E89AD /* VVScreenMatchable.swift */,
+				40038F162757381C853F95C41AB1CFC2 /* VVUI.swift */,
 				3C8D3221BF091AE6790589D64BFD0263 /* Pod */,
 				7C0E5DDCC8D9BA0A25DAECD2E0C7927D /* Support Files */,
 			);
@@ -292,10 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A0296C65E908FD65AB1B1B6E8F2C95 /* Adaptation.swift in Sources */,
-				B1F5D5568F3A625A2FBDF969E2ABD6B0 /* Screen.swift in Sources */,
-				081A6B7032BD9235A50DF79A6BB1F1A5 /* ScreenMatchable.swift in Sources */,
-				6E09C002D470DDD21F72293EF3FCC359 /* UI.swift in Sources */,
+				E3A0296C65E908FD65AB1B1B6E8F2C95 /* VVAdaptation.swift in Sources */,
+				B1F5D5568F3A625A2FBDF969E2ABD6B0 /* VVScreen.swift in Sources */,
+				081A6B7032BD9235A50DF79A6BB1F1A5 /* VVScreenMatchable.swift in Sources */,
+				6E09C002D470DDD21F72293EF3FCC359 /* VVUI.swift in Sources */,
 				6B087A799F2A940AFB1AD99751E14F66 /* VVAdapter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
