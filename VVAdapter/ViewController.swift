@@ -3,7 +3,6 @@
 //
 
 import UIKit
-import VVAdapter
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -33,9 +32,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         dataList.append("Stack")
 
         view.addSubview(tableView)
-
-        let testInch = 12.0.adaptInch()
-        print(testInch)
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
