@@ -1,0 +1,16 @@
+PODS:
+  - VVAdapter (0.0.1)
+
+DEPENDENCIES:
+  - VVAdapter (from `./`)
+
+EXTERNAL SOURCES:
+  VVAdapter:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  VVAdapter: 0b06a78ac17d19761a4f8b4191add9f34fbfbd7e
+
+PODFILE CHECKSUM: c1bd2632fdc75f62eeace614f6b4375290ae9a63
+
+COCOAPODS: 1.11.2
