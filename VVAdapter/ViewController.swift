@@ -3,11 +3,12 @@
 //
 
 import UIKit
+import VVAdapter
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+
     var dataList = [String]()
-    
+
     // MARK: - Subviews
 
     private lazy var tableView: UITableView = {
@@ -30,40 +31,43 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         dataList.append("Relation")
         dataList.append("Container")
         dataList.append("Stack")
-        
+
         view.addSubview(tableView)
+
+        let testInch = 12.0.adaptInch()
+        print(testInch)
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         dataList.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = dataList[indexPath.row]
         return cell
     }
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        var controller:UIViewController;
+        var controller: UIViewController;
         if indexPath.row == 0 {
-           
-        } else if(indexPath.row == 1){
-           
-        } else if(indexPath.row == 2){
-           
-        } else if(indexPath.row == 3){
-           
-        } else if(indexPath.row == 4){
-           
-        } else if(indexPath.row == 5){
-           
-        } else if(indexPath.row == 6){
-           
-        } else if(indexPath.row == 7){
-           
-        } else if(indexPath.row == 8){
-           
+
+        } else if (indexPath.row == 1) {
+
+        } else if (indexPath.row == 2) {
+
+        } else if (indexPath.row == 3) {
+
+        } else if (indexPath.row == 4) {
+
+        } else if (indexPath.row == 5) {
+
+        } else if (indexPath.row == 6) {
+
+        } else if (indexPath.row == 7) {
+
+        } else if (indexPath.row == 8) {
+
         } else {
             controller = UIViewController()
         }
