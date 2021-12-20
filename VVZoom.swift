@@ -9,7 +9,7 @@ public enum VVZoom {
     /// 设置转换闭包
     ///
     /// - Parameter conversion: 转换闭包
-    public static func set(conversion: @escaping ((Double) -> Double)) {
+    public static func set(conversion: @escaping (Double) -> Double) {
         conversionClosure = conversion
     }
 

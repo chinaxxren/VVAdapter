@@ -4,6 +4,7 @@
 
 import UIKit
 
+// https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/
 public enum VVScreen {
 
     static var size: CGSize {
@@ -28,11 +29,11 @@ extension VVScreen {
 
     public enum Width: CGFloat {
         case unknown = -1
-        case _320 = 320
-        case _375 = 375
-        case _390 = 390
-        case _414 = 414
-        case _428 = 428
+        case w320 = 320
+        case w375 = 375
+        case w390 = 390
+        case w414 = 414
+        case w428 = 428
 
         public static var current: Width {
             return Width(rawValue: nativeSize.width / scale) ?? .unknown
@@ -41,14 +42,14 @@ extension VVScreen {
 
     public enum Height: CGFloat {
         case unknown = -1
-        case _480 = 480
-        case _568 = 568
-        case _667 = 667
-        case _736 = 736
-        case _812 = 812
-        case _844 = 844
-        case _896 = 896
-        case _926 = 926
+        case h480 = 480
+        case h568 = 568
+        case h667 = 667
+        case h736 = 736
+        case h812 = 812
+        case h844 = 844
+        case h896 = 896
+        case h926 = 926
 
         public static var current: Height {
             return Height(rawValue: nativeSize.height / scale) ?? .unknown
@@ -57,44 +58,44 @@ extension VVScreen {
 
     public enum Inch: Double {
         case unknown = -1
-        case _3_5 = 3.5
-        case _4_0 = 4.0
-        case _4_7 = 4.7
-        case _5_4 = 5.4
-        case _5_5 = 5.5
-        case _5_8 = 5.8
-        case _6_1 = 6.1
-        case _6_5 = 6.5
-        case _6_7 = 6.7
+        case i35 = 3.5
+        case i40 = 4.0
+        case i47 = 4.7
+        case i54 = 5.4
+        case i55 = 5.5
+        case i58 = 5.8
+        case i61 = 6.1
+        case i65 = 6.5
+        case i67 = 6.7
 
         public static var current: Inch {
             switch (nativeSize.width / scale, nativeSize.height / scale, scale) {
             case (320, 480, 2):
-                return ._3_5
+                return .i35
 
             case (320, 568, 2):
-                return ._4_0
+                return .i40
 
             case (375, 667, 2):
-                return ._4_7
+                return .i47
 
             case (375, 812, 3) where UIDevice.iPhoneMini:
-                return ._5_4
+                return .i54
 
             case (414, 736, 3):
-                return ._5_5
+                return .i55
 
             case (375, 812, 3):
-                return ._5_8
+                return .i58
 
             case (414, 896, 2), (390, 844, 3):
-                return ._6_1
+                return .i61
 
             case (414, 896, 3):
-                return ._6_5
+                return .i65
 
             case (428, 926, 3):
-                return ._6_7
+                return .i67
 
             default:
                 return .unknown
