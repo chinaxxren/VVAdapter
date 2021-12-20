@@ -152,9 +152,7 @@ fileprivate extension UIDevice {
             return true
 
         case "i386", "x86_64", "arm64":
-            return ["iPhone13,1", "iPhone14,4"].contains(
-                    ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] ?? ""
-            )
+            return ["iPhone13,1", "iPhone14,4"].contains(ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] ?? "")
 
         default:
             return false

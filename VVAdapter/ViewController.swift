@@ -3,6 +3,7 @@
 //
 
 import UIKit
+import VVAdapter
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -32,6 +33,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         dataList.append("Stack")
 
         view.addSubview(tableView)
+        
+        print("this is " +
+            "default".screen
+            .width(._320, is: "width 320")
+            .width(._375, is: "width 375")
+            .height(._844, is: "height 844")
+            .height(._812, is: "height 812")
+            .inch(._4_7, is: "4.7 inches")
+            .inch(._5_8, is: "5.8 inches")
+            .inch(._6_5, is: "6.5 inches")
+            .level(.compact, is: "screen 3: 2")
+            .level(.regular, is: "screen 16: 9")
+            .level(.full, is: "screen 19.5: 9")
+            .value
+        )
+        let f = CGFloat(10)
+        let val = f.zoom()
+        print(val)
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
