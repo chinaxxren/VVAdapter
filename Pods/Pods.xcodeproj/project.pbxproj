@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19BD264D68D1A8FAB08FFB87F07F0314 /* VVUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA8354973568D6F9F21850C46BE649 /* VVUI.swift */; };
+		19BD264D68D1A8FAB08FFB87F07F0314 /* VVUIExtent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA8354973568D6F9F21850C46BE649 /* VVUIExtent.swift */; };
 		20BABDBF73CB38BAB13B1704A07621EB /* VVAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B64257518B620EB1482249B24A66414 /* VVAdapter-dummy.m */; };
 		279C85ECF7022F3E1BC28F611F13353E /* Pods-VVAdapterDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC177AECC253669768E006C4A3C84E5D /* Pods-VVAdapterDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BA28DE562AED6AA79E1E76641477A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -43,7 +43,7 @@
 		5B056FF6A545207A9061F2663E943708 /* Pods-VVAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6B4B39B732FA0253353CBC0E9DE4B5D4 /* VVAdapter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVAdapter; path = VVAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7ECA8354973568D6F9F21850C46BE649 /* VVUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVUI.swift; path = Source/Classes/VVUI.swift; sourceTree = "<group>"; };
+		7ECA8354973568D6F9F21850C46BE649 /* VVUIExtent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVUIExtent.swift; path = Source/Classes/VVUIExtent.swift; sourceTree = "<group>"; };
 		825E2E77276FA50400137242 /* VVScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVScreen.swift; sourceTree = "<group>"; };
 		825E2E79276FA51700137242 /* VVZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVZoom.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				F8614E11DA961C85398D58D083A139FB /* VVScreenWrapper.swift */,
-				7ECA8354973568D6F9F21850C46BE649 /* VVUI.swift */,
+				7ECA8354973568D6F9F21850C46BE649 /* VVUIExtent.swift */,
 				825E2E77276FA50400137242 /* VVScreen.swift */,
 				825E2E79276FA51700137242 /* VVZoom.swift */,
 				339F8146459121E0377CBAE243C135AA /* Pod */,
@@ -297,7 +297,7 @@
 				AC5FF4A24602D0F01C4525C9E5F6F9F3 /* VVScreenWrapper.swift in Sources */,
 				825E2E78276FA50400137242 /* VVScreen.swift in Sources */,
 				825E2E7A276FA51700137242 /* VVZoom.swift in Sources */,
-				19BD264D68D1A8FAB08FFB87F07F0314 /* VVUI.swift in Sources */,
+				19BD264D68D1A8FAB08FFB87F07F0314 /* VVUIExtent.swift in Sources */,
 				20BABDBF73CB38BAB13B1704A07621EB /* VVAdapter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
