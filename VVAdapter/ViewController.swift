@@ -50,9 +50,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         )
         let f = CGFloat(10)
         let val = f.zoom()
-
-        let value2 = 0.screen.width(.w320, is: 1).width(.w375, is: 2).value
         print(val)
+        
+        let val2 = 1.screen.width(.w320, is: 1).width(.w375, is: 2).value
         print(val2)
     }
 

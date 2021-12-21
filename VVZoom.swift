@@ -4,7 +4,7 @@
 
 import UIKit
 
-public enum VVZoom {
+public struct VVZoom {
 
     /// 设置转换闭包
     ///
