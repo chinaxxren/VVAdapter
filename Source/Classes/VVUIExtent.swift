@@ -103,6 +103,12 @@ extension UIEdgeInsets: VVAdapterZoomCalculationable {
     }
 }
 
+extension UIFont {
+
+    public func zoom() -> UIFont {
+        return self.withSize(self.pointSize.zoom())
+    }
+}
 
 extension NSLayoutConstraint {
 
@@ -148,7 +154,7 @@ extension UILabel {
                 return
             }
 
-            font = font.withSize(font.pointSize.zoom())
+            font = font.zoom()
             attributedText = text.reset(font: { $0.zoom() })
         }
     }
@@ -197,7 +203,7 @@ extension UITextView {
                 return
             }
 
-            self.font = font.withSize(font.pointSize.zoom())
+            self.font = font.zoom()
         }
     }
 }
@@ -216,7 +222,7 @@ extension UITextField {
                 return
             }
 
-            self.font = font.withSize(font.pointSize.zoom())
+            self.font = font.zoom()
         }
     }
 }
