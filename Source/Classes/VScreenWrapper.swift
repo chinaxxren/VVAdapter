@@ -30,8 +30,7 @@ extension VVAdapterScreenCompatible {
 }
 
 extension VScreenWrapper {
-    public typealias Screen = VScreen
-
+    
     public func width(_ types: VScreen.Width..., is value: Base) -> Self {
         return width(types, is: value, zoomed: value)
     }
