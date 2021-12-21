@@ -4,7 +4,7 @@
 
 import UIKit
 
-public struct VVZoom {
+public struct VZoom {
 
     /// 设置转换闭包
     ///
@@ -29,7 +29,7 @@ public struct VVZoom {
     }
 }
 
-public extension VVZoom {
+public extension VZoom {
 
     static func conversion(_ value: Double) -> Double {
         return conversionClosure(value)
