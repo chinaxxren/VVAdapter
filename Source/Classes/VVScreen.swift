@@ -6,7 +6,7 @@ import Foundation
 import UIKit
 
 // https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/
-public struct VScreen {
+public struct VVScreen {
 
     public static var size: CGSize {
         UIScreen.main.bounds.size
@@ -22,7 +22,7 @@ public struct VScreen {
     }
 }
 
-public extension VScreen {
+public extension VVScreen {
 
     static var isZoomedMode: Bool {
         UIScreen.main.scale != UIScreen.main.nativeScale
@@ -131,7 +131,7 @@ public extension VScreen {
     }
 }
 
-extension VScreen {
+extension VVScreen {
 
     public static var isCompact: Bool {
         return Level.current == .compact

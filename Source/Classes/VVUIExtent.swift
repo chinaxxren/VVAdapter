@@ -16,7 +16,7 @@ protocol VVAdapterZoomCalculationable {
 extension Double: VVAdapterZoomCalculationable {
 
     public func zoom() -> Double {
-        return VZoom.conversion(self)
+        return VVZoom.conversion(self)
     }
 }
 
