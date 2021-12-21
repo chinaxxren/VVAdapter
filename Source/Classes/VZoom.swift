@@ -14,7 +14,7 @@ public struct VZoom {
     }
 
     /// 转换 用于数值的等比例计算 如需自定义可重新设置
-    public static var conversionClosure: ((Double) -> Double) = { (origin) in
+    public static var conversionClosure: (Double) -> Double = { (origin) in
         guard UIDevice.current.userInterfaceIdiom == .phone else {
             return origin
         }
