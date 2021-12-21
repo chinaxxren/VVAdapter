@@ -29,9 +29,9 @@ public struct VVZoom {
     }
 }
 
-extension VVZoom {
+public extension VVZoom {
 
-    public static func conversion(_ value: Double) -> Double {
+    static func conversion(_ value: Double) -> Double {
         return conversionClosure(value)
     }
 }

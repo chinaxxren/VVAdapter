@@ -22,13 +22,13 @@ public struct VVScreen {
     }
 }
 
-extension VVScreen {
+public extension VVScreen {
 
-    public static var isZoomedMode: Bool {
+    static var isZoomedMode: Bool {
         UIScreen.main.scale != UIScreen.main.nativeScale
     }
 
-    public enum Width: CGFloat {
+    enum Width: CGFloat {
         case unknown = -1
         case w320 = 320
         case w375 = 375
@@ -41,7 +41,7 @@ extension VVScreen {
         }
     }
 
-    public enum Height: CGFloat {
+    enum Height: CGFloat {
         case unknown = -1
         case h480 = 480
         case h568 = 568
@@ -57,7 +57,7 @@ extension VVScreen {
         }
     }
 
-    public enum Inch: Double {
+    enum Inch: Double {
         case unknown = -1
         case i35 = 3.5
         case i40 = 4.0
@@ -104,7 +104,7 @@ extension VVScreen {
         }
     }
 
-    public enum Level: Int {
+    enum Level: Int {
         case unknown = -1
         /// 3: 2
         case compact
