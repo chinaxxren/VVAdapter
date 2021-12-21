@@ -1,8 +1,14 @@
 PODS:
   - VVAdapter (0.0.1)
+  - VVFrame (0.0.2)
 
 DEPENDENCIES:
   - VVAdapter (from `./`)
+  - VVFrame
+
+SPEC REPOS:
+  trunk:
+    - VVFrame
 
 EXTERNAL SOURCES:
   VVAdapter:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   VVAdapter: 0b06a78ac17d19761a4f8b4191add9f34fbfbd7e
+  VVFrame: 1fbe1cf5e8503f18fcfbaba5662150c68e3aede9
 
-PODFILE CHECKSUM: c1bd2632fdc75f62eeace614f6b4375290ae9a63
+PODFILE CHECKSUM: 97db2a063b07e77563f22f4e62fe50dc7b413523
 
 COCOAPODS: 1.11.2

@@ -7,113 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19BD264D68D1A8FAB08FFB87F07F0314 /* VVUIExtent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA8354973568D6F9F21850C46BE649 /* VVUIExtent.swift */; };
-		20BABDBF73CB38BAB13B1704A07621EB /* VVAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B64257518B620EB1482249B24A66414 /* VVAdapter-dummy.m */; };
-		279C85ECF7022F3E1BC28F611F13353E /* Pods-VVAdapterDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC177AECC253669768E006C4A3C84E5D /* Pods-VVAdapterDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BA28DE562AED6AA79E1E76641477A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		71AEA81EC894DC5F75B313446E86819E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		825E2E78276FA50400137242 /* VVScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825E2E77276FA50400137242 /* VVScreen.swift */; };
-		825E2E7A276FA51700137242 /* VVZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825E2E79276FA51700137242 /* VVZoom.swift */; };
-		AC5FF4A24602D0F01C4525C9E5F6F9F3 /* VVScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8614E11DA961C85398D58D083A139FB /* VVScreenWrapper.swift */; };
-		D42005A0718629250233820E998B3E25 /* Pods-VVAdapterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D2A4969D3C373CC692DA2992D36E9 /* Pods-VVAdapterDemo-dummy.m */; };
-		ED6B3ED31DDFE8AC99B01A46D30717D1 /* VVAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C0F6CCC70903349BD43B2321234D4D /* VVAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D5214ABC81EDC81327B7BE196FC5B07 /* Maker+Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480A99B61E9F1ACFC2D0B1DBEF55BC2 /* Maker+Configurations.swift */; };
+		129F4EA30A291DA361DB7D7847F60B2B /* VVScreenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE494239867AB8C0D93E5FA3CE06501 /* VVScreenWrapper.swift */; };
+		180F82C2B7EB17521720DB10F25D2FBC /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A419E385B1E90706174054551D3AA /* SafeArea.swift */; };
+		23435C51270ED21CC8CB53114927E3E4 /* Relations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93AFCE4391E588D195622195E0A589 /* Relations.swift */; };
+		2E31434FC9DAA67BD14AE6B5F0BA7404 /* Maker+Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38FB4F58A4A9EF8253E217B8AE47C2 /* Maker+Edges.swift */; };
+		3772AB229C8A833B7D04C6E1F04D4EC4 /* UIView+Installer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C04DA61C611A9715ECC5E877D67922 /* UIView+Installer.swift */; };
+		3CC2CC9DD75C6CA841543E02CA4E5454 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FCF4349924726FBC75AEC022607A73 /* Weak.swift */; };
+		43311BB01EF37F987A81E70C09EAB97E /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3103364568B903FBC4FD2F3ED32AC75 /* Number.swift */; };
+		4551D44E0A71E9F04550556BB22BD07D /* Pods-VVAdapterDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC177AECC253669768E006C4A3C84E5D /* Pods-VVAdapterDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462456F45F38B6D596C99AF2B008E508 /* Pods-VVAdapterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D2A4969D3C373CC692DA2992D36E9 /* Pods-VVAdapterDemo-dummy.m */; };
+		54BA34F288E2039202FC28872A06A821 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF7C878E6AB57CFF8AB9C8A7E1139E /* Keyboard.swift */; };
+		573E574FD43ED252CD6D0CB1B53F3A00 /* VVAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE028E053479B2C7BA65DAE5F5170 /* VVAdapter-dummy.m */; };
+		57D0424B639DFF610B798AE918896C33 /* VVScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C7CA233A2FCA3430080C15EDF735 /* VVScreen.swift */; };
+		5C3E966E3E4901E8E66E165908EA3DCF /* Maker+Relations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01211AD99A397FDA10C813A23D7FDEF /* Maker+Relations.swift */; };
+		66DE5BD507DF636E2ECBAA51B83ED657 /* CALayer+Installer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377A2E655ECEFFB5DDB7EC11E335BEC /* CALayer+Installer.swift */; };
+		773EAECF243DDBED05B28982FAA95138 /* HasRelations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C0A63A81FFB00CA5AE8A1C96F99F0 /* HasRelations.swift */; };
+		7CABDA6DAEEB1E6D0E281709C64D34BA /* MakerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D98E9E8689FBE8D91B72B96E6723FDA /* MakerHelper.swift */; };
+		8F60DAC28A2A4D6DB83C9CE9D7BDFD5D /* OptionSet+ForEeach.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D87F1EE708948FB77A36DED9818E3F /* OptionSet+ForEeach.swift */; };
+		9A5FFB00D97E0A6D385A0C70DDF70E8F /* ViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E7037467BC59B98523A03AF53126AE /* ViewMaker.swift */; };
+		9FB92CEF5E0CD27727C4B55F4769F067 /* Maker+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A19376C45F7E6E5111BBFA995DA5F2 /* Maker+Size.swift */; };
+		A2649E3E8537E59D5747693C0C70A840 /* Maker+Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86834B858E11DEA1730C45A4558B9B0F /* Maker+Equal.swift */; };
+		A70D4994C43BA4620713EF7E6AA00E94 /* VVAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22116B67A33B27BD50280A9C04C82B47 /* VVAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6EF0733D1C16A43A3E9C06356EA42B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C00BF905C5CD0A1DBAA9929BD39EA179 /* VVFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C08DD96C6FED043E58473F920E45E674 /* VVFrame-dummy.m */; };
+		C3C1F2477B80558E6E0A809A18921387 /* Array+Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90FA667CDFA198FD2E66A426F62C90 /* Array+Stack.swift */; };
+		C728A166D05891FE2461577DC453EAC9 /* ElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C0B31C47653CE4DB75590B9BDBB6F /* ElementType.swift */; };
+		CB297F56C7A16C9038256DA2D9426E52 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FD8067DB929F48CA785E74671CFB8 /* Parameters.swift */; };
+		CE9E33D62635AC6AB454A6D9D11A6E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D4CACF078791C1FECB1E1AD915C0978D /* KeyboardRectCloneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CA0E354282CC3EE6D4F1E4C8C68FC2 /* KeyboardRectCloneView.swift */; };
+		EAEA36883ED8004A96C43CE08A23CA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC67A7BEBCCE67209122DC1C1EDE4CFB /* Maker+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CACD935E3DAB6F1EA6EEA46E0880C0 /* Maker+Position.swift */; };
+		ED1E58038EAFD50A450E6C80943AE0DE /* Maker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D368370FC9E2403F2363C7CC8A0EAAF8 /* Maker.swift */; };
+		F4E520B376D09BB9EEEF99F2DF6930EC /* VVUIExtent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7808A6FEB64A2E751FB89AD53EE4630 /* VVUIExtent.swift */; };
+		F5A377ACC04ADDBF1BD1A829FC2A6C18 /* VVZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85EC7F964C07C029348E00F8B06F95 /* VVZoom.swift */; };
+		F83C6A0D98BBCFF93D2D396E3DCECE6C /* UIView+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877C651D03DFB04F1CD4981C724597 /* UIView+Keyboard.swift */; };
+		FC13E66AC7E63E38915320F20A3638D9 /* VVFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB9B8EDBF7A4FA98C1F6E6814A0E4DE /* VVFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7121518992F97B788A6B7D786024DD2F /* PBXContainerItemProxy */ = {
+		593CD23791BF2F2FEA19F8B9291572F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BE0B2EC3700D2AEA46F2FCC65E082A88;
 			remoteInfo = VVAdapter;
 		};
+		DE70962CDE72EA910CEA868F515B26B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC93CE765D2F8E97A605CF185FF6FFA9;
+			remoteInfo = VVFrame;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		017ABB1AA158F4FDEEA055AD43D4490B /* Pods-VVAdapterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVAdapterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		04877C651D03DFB04F1CD4981C724597 /* UIView+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Keyboard.swift"; path = "Source/Classes/Extensions/UIView+Keyboard.swift"; sourceTree = "<group>"; };
 		18CD3D895B014AC34A0A7E908AB5D2D4 /* Pods-VVAdapterDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VVAdapterDemo.modulemap"; sourceTree = "<group>"; };
-		2A52B04AF1C06B8AA94F61A587A800FF /* VVAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VVAdapter-Info.plist"; sourceTree = "<group>"; };
+		1CB9B8EDBF7A4FA98C1F6E6814A0E4DE /* VVFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVFrame-umbrella.h"; sourceTree = "<group>"; };
+		22116B67A33B27BD50280A9C04C82B47 /* VVAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVAdapter-umbrella.h"; sourceTree = "<group>"; };
+		2D98E9E8689FBE8D91B72B96E6723FDA /* MakerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MakerHelper.swift; path = Source/Classes/MakerHelper.swift; sourceTree = "<group>"; };
 		3288DD7C88E84E5A59EEC749168DE6CC /* Pods-VVAdapterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VVAdapterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C29B0BF0FA21860F67E922F1ADBFA3E /* Pods-VVAdapterDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VVAdapterDemo"; path = Pods_VVAdapterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C93AFCE4391E588D195622195E0A589 /* Relations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relations.swift; path = Source/Classes/Relations.swift; sourceTree = "<group>"; };
 		3D4D2A4969D3C373CC692DA2992D36E9 /* Pods-VVAdapterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VVAdapterDemo-dummy.m"; sourceTree = "<group>"; };
-		4B64257518B620EB1482249B24A66414 /* VVAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVAdapter-dummy.m"; sourceTree = "<group>"; };
-		543190CA3E2D90870FFFDFD14F744EDA /* VVAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VVAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5796131910A4591CD095D927E6ECFFA2 /* VVAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVAdapter.debug.xcconfig; sourceTree = "<group>"; };
-		5A052DBB1EF09590D7BD7CDC0B0713DF /* VVAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VVAdapter.modulemap; sourceTree = "<group>"; };
+		4C2C0B31C47653CE4DB75590B9BDBB6F /* ElementType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementType.swift; path = Source/Classes/ElementType.swift; sourceTree = "<group>"; };
+		53C048977D8752C12FBF0F0DED479248 /* VVFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVFrame.release.xcconfig; sourceTree = "<group>"; };
 		5B056FF6A545207A9061F2663E943708 /* Pods-VVAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		673163DE6A6655A1D967764901EF2482 /* VVFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVFrame.debug.xcconfig; sourceTree = "<group>"; };
+		69EFC546C308150E89DC329806432EAC /* VVAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VVAdapter.modulemap; sourceTree = "<group>"; };
 		6B4B39B732FA0253353CBC0E9DE4B5D4 /* VVAdapter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVAdapter; path = VVAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF99D31D50B7DBBFF8005057C33687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7ECA8354973568D6F9F21850C46BE649 /* VVUIExtent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVUIExtent.swift; path = Source/Classes/VVUIExtent.swift; sourceTree = "<group>"; };
-		825E2E77276FA50400137242 /* VVScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVScreen.swift; sourceTree = "<group>"; };
-		825E2E79276FA51700137242 /* VVZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVZoom.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A4FD8067DB929F48CA785E74671CFB8 /* Parameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parameters.swift; path = Source/Classes/Parameters.swift; sourceTree = "<group>"; };
+		7F3E5F49A002CE424C484F2E74E73907 /* VVAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VVAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85FCF4349924726FBC75AEC022607A73 /* Weak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weak.swift; path = Source/Classes/Weak.swift; sourceTree = "<group>"; };
+		86834B858E11DEA1730C45A4558B9B0F /* Maker+Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Maker+Equal.swift"; path = "Source/Classes/Maker/Maker+Equal.swift"; sourceTree = "<group>"; };
+		8CD8C7CA233A2FCA3430080C15EDF735 /* VVScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVScreen.swift; path = Source/Classes/VVScreen.swift; sourceTree = "<group>"; };
+		91131FA9B511FC99ACFC24302849C0A2 /* VVAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVAdapter-prefix.pch"; sourceTree = "<group>"; };
+		97C04DA61C611A9715ECC5E877D67922 /* UIView+Installer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Installer.swift"; path = "Source/Classes/Extensions/UIView+Installer.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DBE028E053479B2C7BA65DAE5F5170 /* VVAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVAdapter-dummy.m"; sourceTree = "<group>"; };
+		A92A419E385B1E90706174054551D3AA /* SafeArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafeArea.swift; path = Source/Classes/SafeArea.swift; sourceTree = "<group>"; };
+		AA90FA667CDFA198FD2E66A426F62C90 /* Array+Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Stack.swift"; path = "Source/Classes/Extensions/Array+Stack.swift"; sourceTree = "<group>"; };
 		AC177AECC253669768E006C4A3C84E5D /* Pods-VVAdapterDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VVAdapterDemo-umbrella.h"; sourceTree = "<group>"; };
-		B3509FAB02A5587B4AA5552AFCE21F2F /* VVAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVAdapter-prefix.pch"; sourceTree = "<group>"; };
+		AE38FB4F58A4A9EF8253E217B8AE47C2 /* Maker+Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Maker+Edges.swift"; path = "Source/Classes/Maker/Maker+Edges.swift"; sourceTree = "<group>"; };
+		AF7A46F7E9423CD70425A0D31FADB295 /* VVFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVFrame-prefix.pch"; sourceTree = "<group>"; };
+		B5D87F1EE708948FB77A36DED9818E3F /* OptionSet+ForEeach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OptionSet+ForEeach.swift"; path = "Source/Classes/Extensions/OptionSet+ForEeach.swift"; sourceTree = "<group>"; };
+		BB85EC7F964C07C029348E00F8B06F95 /* VVZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVZoom.swift; path = Source/Classes/VVZoom.swift; sourceTree = "<group>"; };
+		C08DD96C6FED043E58473F920E45E674 /* VVFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VVFrame-dummy.m"; sourceTree = "<group>"; };
+		C3103364568B903FBC4FD2F3ED32AC75 /* Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Number.swift; path = Source/Classes/Number.swift; sourceTree = "<group>"; };
+		C377A2E655ECEFFB5DDB7EC11E335BEC /* CALayer+Installer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Installer.swift"; path = "Source/Classes/Extensions/CALayer+Installer.swift"; sourceTree = "<group>"; };
+		C480A99B61E9F1ACFC2D0B1DBEF55BC2 /* Maker+Configurations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Maker+Configurations.swift"; path = "Source/Classes/Extensions/Maker+Configurations.swift"; sourceTree = "<group>"; };
+		C5CA0E354282CC3EE6D4F1E4C8C68FC2 /* KeyboardRectCloneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardRectCloneView.swift; path = Source/Classes/KeyboardRectCloneView.swift; sourceTree = "<group>"; };
 		C689BDA3E811BED11C408962985F4627 /* Pods-VVAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VVAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C6C0F6CCC70903349BD43B2321234D4D /* VVAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VVAdapter-umbrella.h"; sourceTree = "<group>"; };
-		EC9D9AE8B55F0C036F7CAF76355DD273 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EE9DE8E4455D88291CBA5D0E59407621 /* VVAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVAdapter.release.xcconfig; sourceTree = "<group>"; };
+		C6E23090FA9D421DE8F26D08B4AF6672 /* VVAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		CAE494239867AB8C0D93E5FA3CE06501 /* VVScreenWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVScreenWrapper.swift; path = Source/Classes/VVScreenWrapper.swift; sourceTree = "<group>"; };
+		D12054699BBAED81DA9A6F66C1B9F988 /* VVFrame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VVFrame-Info.plist"; sourceTree = "<group>"; };
+		D2E7037467BC59B98523A03AF53126AE /* ViewMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewMaker.swift; path = Source/Classes/Maker/ViewMaker.swift; sourceTree = "<group>"; };
+		D368370FC9E2403F2363C7CC8A0EAAF8 /* Maker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maker.swift; path = Source/Classes/Maker/Maker.swift; sourceTree = "<group>"; };
+		D7B302A6EB1445E8E3B2D885890D708B /* VVFrame */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VVFrame; path = VVFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CACD935E3DAB6F1EA6EEA46E0880C0 /* Maker+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Maker+Position.swift"; path = "Source/Classes/Maker/Maker+Position.swift"; sourceTree = "<group>"; };
+		E01211AD99A397FDA10C813A23D7FDEF /* Maker+Relations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Maker+Relations.swift"; path = "Source/Classes/Maker+Relations.swift"; sourceTree = "<group>"; };
+		E7808A6FEB64A2E751FB89AD53EE4630 /* VVUIExtent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVUIExtent.swift; path = Source/Classes/VVUIExtent.swift; sourceTree = "<group>"; };
+		EA94557BEDD383128A5006767D282F62 /* VVFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VVFrame.modulemap; sourceTree = "<group>"; };
+		F0A19376C45F7E6E5111BBFA995DA5F2 /* Maker+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Maker+Size.swift"; path = "Source/Classes/Maker/Maker+Size.swift"; sourceTree = "<group>"; };
 		F0EE5B1288F5D44334D3D43A21A13E4F /* Pods-VVAdapterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VVAdapterDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F2B7FF0938B23C71B4C9D0A478C841AB /* VVAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVAdapter.release.xcconfig; sourceTree = "<group>"; };
 		F555A722A7411885465DCA121352462F /* Pods-VVAdapterDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VVAdapterDemo-Info.plist"; sourceTree = "<group>"; };
-		F8614E11DA961C85398D58D083A139FB /* VVScreenWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VVScreenWrapper.swift; path = Source/Classes/VVScreenWrapper.swift; sourceTree = "<group>"; };
+		F90C0A63A81FFB00CA5AE8A1C96F99F0 /* HasRelations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HasRelations.swift; path = Source/Classes/Extensions/HasRelations.swift; sourceTree = "<group>"; };
+		FEBF7C878E6AB57CFF8AB9C8A7E1139E /* Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyboard.swift; path = Source/Classes/Keyboard.swift; sourceTree = "<group>"; };
+		FF83ABCB95C493B2EAA4EAB92D715406 /* VVAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VVAdapter-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D18B5CD74A1CF7E5A179A3A2935C91A /* Frameworks */ = {
+		0086A44ECEC5EDE5B531F4D454834AAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA28DE562AED6AA79E1E76641477A54 /* Foundation.framework in Frameworks */,
+				EAEA36883ED8004A96C43CE08A23CA10 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80506A88C62D025E382D71821D799566 /* Frameworks */ = {
+		D404C48FCAB2EDD664E8829CBB42E7C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71AEA81EC894DC5F75B313446E86819E /* Foundation.framework in Frameworks */,
+				BA6EF0733D1C16A43A3E9C06356EA42B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7498C1B199FF9FAC10AFD8D1058ED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9E33D62635AC6AB454A6D9D11A6E33 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24E2F28C4174A209978ECFFED375BC19 /* Support Files */ = {
+		03915DEB6B7884F4CB08BEC933CB0F5C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5A052DBB1EF09590D7BD7CDC0B0713DF /* VVAdapter.modulemap */,
-				4B64257518B620EB1482249B24A66414 /* VVAdapter-dummy.m */,
-				2A52B04AF1C06B8AA94F61A587A800FF /* VVAdapter-Info.plist */,
-				B3509FAB02A5587B4AA5552AFCE21F2F /* VVAdapter-prefix.pch */,
-				C6C0F6CCC70903349BD43B2321234D4D /* VVAdapter-umbrella.h */,
-				5796131910A4591CD095D927E6ECFFA2 /* VVAdapter.debug.xcconfig */,
-				EE9DE8E4455D88291CBA5D0E59407621 /* VVAdapter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/VVAdapter";
-			sourceTree = "<group>";
-		};
-		323DC72759788A123D37ED0449246861 /* VVAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				F8614E11DA961C85398D58D083A139FB /* VVScreenWrapper.swift */,
-				7ECA8354973568D6F9F21850C46BE649 /* VVUIExtent.swift */,
-				825E2E77276FA50400137242 /* VVScreen.swift */,
-				825E2E79276FA51700137242 /* VVZoom.swift */,
-				339F8146459121E0377CBAE243C135AA /* Pod */,
-				24E2F28C4174A209978ECFFED375BC19 /* Support Files */,
-			);
-			name = VVAdapter;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		339F8146459121E0377CBAE243C135AA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EC9D9AE8B55F0C036F7CAF76355DD273 /* README.md */,
-				543190CA3E2D90870FFFDFD14F744EDA /* VVAdapter.podspec */,
+				71AF99D31D50B7DBBFF8005057C33687 /* README.md */,
+				7F3E5F49A002CE424C484F2E74E73907 /* VVAdapter.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		0C08C538E4FE2DE42D5F89C214DC4960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C29B0BF0FA21860F67E922F1ADBFA3E /* Pods-VVAdapterDemo */,
+				6B4B39B732FA0253353CBC0E9DE4B5D4 /* VVAdapter */,
+				D7B302A6EB1445E8E3B2D885890D708B /* VVFrame */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -124,19 +177,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7BD17464EE70615CC3924F6725FE9723 /* Products */ = {
+		5A2FCDA9C4B25CD781407AE6D20FB22F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3C29B0BF0FA21860F67E922F1ADBFA3E /* Pods-VVAdapterDemo */,
-				6B4B39B732FA0253353CBC0E9DE4B5D4 /* VVAdapter */,
+				EA94557BEDD383128A5006767D282F62 /* VVFrame.modulemap */,
+				C08DD96C6FED043E58473F920E45E674 /* VVFrame-dummy.m */,
+				D12054699BBAED81DA9A6F66C1B9F988 /* VVFrame-Info.plist */,
+				AF7A46F7E9423CD70425A0D31FADB295 /* VVFrame-prefix.pch */,
+				1CB9B8EDBF7A4FA98C1F6E6814A0E4DE /* VVFrame-umbrella.h */,
+				673163DE6A6655A1D967764901EF2482 /* VVFrame.debug.xcconfig */,
+				53C048977D8752C12FBF0F0DED479248 /* VVFrame.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/VVFrame";
 			sourceTree = "<group>";
 		};
-		A9DD0B3E88F074A150E0EBB91B1F45A9 /* Development Pods */ = {
+		5CDB447590917D536763949C610C715F /* VVAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				323DC72759788A123D37ED0449246861 /* VVAdapter */,
+				8CD8C7CA233A2FCA3430080C15EDF735 /* VVScreen.swift */,
+				CAE494239867AB8C0D93E5FA3CE06501 /* VVScreenWrapper.swift */,
+				E7808A6FEB64A2E751FB89AD53EE4630 /* VVUIExtent.swift */,
+				BB85EC7F964C07C029348E00F8B06F95 /* VVZoom.swift */,
+				03915DEB6B7884F4CB08BEC933CB0F5C /* Pod */,
+				B8803EB6A1AADE3A10550F97E17BF205 /* Support Files */,
+			);
+			name = VVAdapter;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5D7A8FA456CF082DF6C2FAE34AEB85E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CDB447590917D536763949C610C715F /* VVAdapter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -158,15 +231,71 @@
 			path = "Target Support Files/Pods-VVAdapterDemo";
 			sourceTree = "<group>";
 		};
+		B8803EB6A1AADE3A10550F97E17BF205 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69EFC546C308150E89DC329806432EAC /* VVAdapter.modulemap */,
+				A4DBE028E053479B2C7BA65DAE5F5170 /* VVAdapter-dummy.m */,
+				FF83ABCB95C493B2EAA4EAB92D715406 /* VVAdapter-Info.plist */,
+				91131FA9B511FC99ACFC24302849C0A2 /* VVAdapter-prefix.pch */,
+				22116B67A33B27BD50280A9C04C82B47 /* VVAdapter-umbrella.h */,
+				C6E23090FA9D421DE8F26D08B4AF6672 /* VVAdapter.debug.xcconfig */,
+				F2B7FF0938B23C71B4C9D0A478C841AB /* VVAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/VVAdapter";
+			sourceTree = "<group>";
+		};
+		BFEE2A97952A88A12162901E014D1552 /* VVFrame */ = {
+			isa = PBXGroup;
+			children = (
+				AA90FA667CDFA198FD2E66A426F62C90 /* Array+Stack.swift */,
+				C377A2E655ECEFFB5DDB7EC11E335BEC /* CALayer+Installer.swift */,
+				4C2C0B31C47653CE4DB75590B9BDBB6F /* ElementType.swift */,
+				F90C0A63A81FFB00CA5AE8A1C96F99F0 /* HasRelations.swift */,
+				FEBF7C878E6AB57CFF8AB9C8A7E1139E /* Keyboard.swift */,
+				C5CA0E354282CC3EE6D4F1E4C8C68FC2 /* KeyboardRectCloneView.swift */,
+				D368370FC9E2403F2363C7CC8A0EAAF8 /* Maker.swift */,
+				C480A99B61E9F1ACFC2D0B1DBEF55BC2 /* Maker+Configurations.swift */,
+				AE38FB4F58A4A9EF8253E217B8AE47C2 /* Maker+Edges.swift */,
+				86834B858E11DEA1730C45A4558B9B0F /* Maker+Equal.swift */,
+				D7CACD935E3DAB6F1EA6EEA46E0880C0 /* Maker+Position.swift */,
+				E01211AD99A397FDA10C813A23D7FDEF /* Maker+Relations.swift */,
+				F0A19376C45F7E6E5111BBFA995DA5F2 /* Maker+Size.swift */,
+				2D98E9E8689FBE8D91B72B96E6723FDA /* MakerHelper.swift */,
+				C3103364568B903FBC4FD2F3ED32AC75 /* Number.swift */,
+				B5D87F1EE708948FB77A36DED9818E3F /* OptionSet+ForEeach.swift */,
+				7A4FD8067DB929F48CA785E74671CFB8 /* Parameters.swift */,
+				3C93AFCE4391E588D195622195E0A589 /* Relations.swift */,
+				A92A419E385B1E90706174054551D3AA /* SafeArea.swift */,
+				97C04DA61C611A9715ECC5E877D67922 /* UIView+Installer.swift */,
+				04877C651D03DFB04F1CD4981C724597 /* UIView+Keyboard.swift */,
+				D2E7037467BC59B98523A03AF53126AE /* ViewMaker.swift */,
+				85FCF4349924726FBC75AEC022607A73 /* Weak.swift */,
+				5A2FCDA9C4B25CD781407AE6D20FB22F /* Support Files */,
+			);
+			name = VVFrame;
+			path = VVFrame;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A9DD0B3E88F074A150E0EBB91B1F45A9 /* Development Pods */,
+				5D7A8FA456CF082DF6C2FAE34AEB85E4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7BD17464EE70615CC3924F6725FE9723 /* Products */,
+				D0A31D5E6C686542AAD9D8A7ED480139 /* Pods */,
+				0C08C538E4FE2DE42D5F89C214DC4960 /* Products */,
 				E655031B87BBDC70EE584B8372D1ACC1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0A31D5E6C686542AAD9D8A7ED480139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE2A97952A88A12162901E014D1552 /* VVFrame */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -188,19 +317,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		80E9A91C1D3184536FEFE035D0DF2E11 /* Headers */ = {
+		73850B454B42E80D143C92F46F5B0DDD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				279C85ECF7022F3E1BC28F611F13353E /* Pods-VVAdapterDemo-umbrella.h in Headers */,
+				FC13E66AC7E63E38915320F20A3638D9 /* VVFrame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D77D816DB4127ED977DFA0A968B167CA /* Headers */ = {
+		7B8FF709DC4D70E948F02F220FEAA49A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6B3ED31DDFE8AC99B01A46D30717D1 /* VVAdapter-umbrella.h in Headers */,
+				4551D44E0A71E9F04550556BB22BD07D /* Pods-VVAdapterDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCE30FDCE9311239417F3525DF83F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70D4994C43BA4620713EF7E6AA00E94 /* VVAdapter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,31 +346,50 @@
 /* Begin PBXNativeTarget section */
 		1A0D30B98E1881D16C81C8EF4A42A3D8 /* Pods-VVAdapterDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98717517425607E50A05BDA1F4997DBD /* Build configuration list for PBXNativeTarget "Pods-VVAdapterDemo" */;
+			buildConfigurationList = 8555E042FD386A0A8ADD49A1B94CA799 /* Build configuration list for PBXNativeTarget "Pods-VVAdapterDemo" */;
 			buildPhases = (
-				80E9A91C1D3184536FEFE035D0DF2E11 /* Headers */,
-				AD85A155DA1503F2E8D2334F3502E9B4 /* Sources */,
-				4D18B5CD74A1CF7E5A179A3A2935C91A /* Frameworks */,
-				918448C0F4A74978C4AB8942C8CC16BF /* Resources */,
+				7B8FF709DC4D70E948F02F220FEAA49A /* Headers */,
+				E46DDFA6981DE6B10EF2D340A91545BE /* Sources */,
+				F7498C1B199FF9FAC10AFD8D1058ED68 /* Frameworks */,
+				D645C06D2A42F4D5EEA8E3DC17698F2F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C40CB2AB5A25E65DA03F7F52EF7A8308 /* PBXTargetDependency */,
+				D4D447176D9FC2263BEFECC8AF90B122 /* PBXTargetDependency */,
+				25B9929F2635ED2F976BEF96B53E154A /* PBXTargetDependency */,
 			);
 			name = "Pods-VVAdapterDemo";
 			productName = Pods_VVAdapterDemo;
 			productReference = 3C29B0BF0FA21860F67E922F1ADBFA3E /* Pods-VVAdapterDemo */;
 			productType = "com.apple.product-type.framework";
 		};
+		BC93CE765D2F8E97A605CF185FF6FFA9 /* VVFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6909546B02A25611079576E0FA240A9E /* Build configuration list for PBXNativeTarget "VVFrame" */;
+			buildPhases = (
+				73850B454B42E80D143C92F46F5B0DDD /* Headers */,
+				6ADDDE7CE6C6FC0C4D112BA2F9CC022F /* Sources */,
+				D404C48FCAB2EDD664E8829CBB42E7C0 /* Frameworks */,
+				2E51A5FF00BB1161D1418F74DCC9FD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVFrame;
+			productName = VVFrame;
+			productReference = D7B302A6EB1445E8E3B2D885890D708B /* VVFrame */;
+			productType = "com.apple.product-type.framework";
+		};
 		BE0B2EC3700D2AEA46F2FCC65E082A88 /* VVAdapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2653DAB02B4C0DA24D8C185972895AA /* Build configuration list for PBXNativeTarget "VVAdapter" */;
+			buildConfigurationList = 93E9D853592B62A96756357B2A75F44D /* Build configuration list for PBXNativeTarget "VVAdapter" */;
 			buildPhases = (
-				D77D816DB4127ED977DFA0A968B167CA /* Headers */,
-				80C592030AC185C3D5DCE8BF64DC36B7 /* Sources */,
-				80506A88C62D025E382D71821D799566 /* Frameworks */,
-				46275CB5FB618406C054E6AEDCAC5B2A /* Resources */,
+				DFCE30FDCE9311239417F3525DF83F97 /* Headers */,
+				9E2BA4C65C949434D5C8E5DA5BC6044C /* Sources */,
+				0086A44ECEC5EDE5B531F4D454834AAA /* Frameworks */,
+				E81EEED84189DB59EDE1B85206542DCE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -262,25 +418,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7BD17464EE70615CC3924F6725FE9723 /* Products */;
+			productRefGroup = 0C08C538E4FE2DE42D5F89C214DC4960 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1A0D30B98E1881D16C81C8EF4A42A3D8 /* Pods-VVAdapterDemo */,
 				BE0B2EC3700D2AEA46F2FCC65E082A88 /* VVAdapter */,
+				BC93CE765D2F8E97A605CF185FF6FFA9 /* VVFrame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46275CB5FB618406C054E6AEDCAC5B2A /* Resources */ = {
+		2E51A5FF00BB1161D1418F74DCC9FD01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		918448C0F4A74978C4AB8942C8CC16BF /* Resources */ = {
+		D645C06D2A42F4D5EEA8E3DC17698F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81EEED84189DB59EDE1B85206542DCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,41 +454,151 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80C592030AC185C3D5DCE8BF64DC36B7 /* Sources */ = {
+		6ADDDE7CE6C6FC0C4D112BA2F9CC022F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5FF4A24602D0F01C4525C9E5F6F9F3 /* VVScreenWrapper.swift in Sources */,
-				825E2E78276FA50400137242 /* VVScreen.swift in Sources */,
-				825E2E7A276FA51700137242 /* VVZoom.swift in Sources */,
-				19BD264D68D1A8FAB08FFB87F07F0314 /* VVUIExtent.swift in Sources */,
-				20BABDBF73CB38BAB13B1704A07621EB /* VVAdapter-dummy.m in Sources */,
+				C3C1F2477B80558E6E0A809A18921387 /* Array+Stack.swift in Sources */,
+				66DE5BD507DF636E2ECBAA51B83ED657 /* CALayer+Installer.swift in Sources */,
+				C728A166D05891FE2461577DC453EAC9 /* ElementType.swift in Sources */,
+				773EAECF243DDBED05B28982FAA95138 /* HasRelations.swift in Sources */,
+				54BA34F288E2039202FC28872A06A821 /* Keyboard.swift in Sources */,
+				D4CACF078791C1FECB1E1AD915C0978D /* KeyboardRectCloneView.swift in Sources */,
+				ED1E58038EAFD50A450E6C80943AE0DE /* Maker.swift in Sources */,
+				0D5214ABC81EDC81327B7BE196FC5B07 /* Maker+Configurations.swift in Sources */,
+				2E31434FC9DAA67BD14AE6B5F0BA7404 /* Maker+Edges.swift in Sources */,
+				A2649E3E8537E59D5747693C0C70A840 /* Maker+Equal.swift in Sources */,
+				EC67A7BEBCCE67209122DC1C1EDE4CFB /* Maker+Position.swift in Sources */,
+				5C3E966E3E4901E8E66E165908EA3DCF /* Maker+Relations.swift in Sources */,
+				9FB92CEF5E0CD27727C4B55F4769F067 /* Maker+Size.swift in Sources */,
+				7CABDA6DAEEB1E6D0E281709C64D34BA /* MakerHelper.swift in Sources */,
+				43311BB01EF37F987A81E70C09EAB97E /* Number.swift in Sources */,
+				8F60DAC28A2A4D6DB83C9CE9D7BDFD5D /* OptionSet+ForEeach.swift in Sources */,
+				CB297F56C7A16C9038256DA2D9426E52 /* Parameters.swift in Sources */,
+				23435C51270ED21CC8CB53114927E3E4 /* Relations.swift in Sources */,
+				180F82C2B7EB17521720DB10F25D2FBC /* SafeArea.swift in Sources */,
+				3772AB229C8A833B7D04C6E1F04D4EC4 /* UIView+Installer.swift in Sources */,
+				F83C6A0D98BBCFF93D2D396E3DCECE6C /* UIView+Keyboard.swift in Sources */,
+				9A5FFB00D97E0A6D385A0C70DDF70E8F /* ViewMaker.swift in Sources */,
+				C00BF905C5CD0A1DBAA9929BD39EA179 /* VVFrame-dummy.m in Sources */,
+				3CC2CC9DD75C6CA841543E02CA4E5454 /* Weak.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD85A155DA1503F2E8D2334F3502E9B4 /* Sources */ = {
+		9E2BA4C65C949434D5C8E5DA5BC6044C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42005A0718629250233820E998B3E25 /* Pods-VVAdapterDemo-dummy.m in Sources */,
+				573E574FD43ED252CD6D0CB1B53F3A00 /* VVAdapter-dummy.m in Sources */,
+				57D0424B639DFF610B798AE918896C33 /* VVScreen.swift in Sources */,
+				129F4EA30A291DA361DB7D7847F60B2B /* VVScreenWrapper.swift in Sources */,
+				F4E520B376D09BB9EEEF99F2DF6930EC /* VVUIExtent.swift in Sources */,
+				F5A377ACC04ADDBF1BD1A829FC2A6C18 /* VVZoom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46DDFA6981DE6B10EF2D340A91545BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462456F45F38B6D596C99AF2B008E508 /* Pods-VVAdapterDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C40CB2AB5A25E65DA03F7F52EF7A8308 /* PBXTargetDependency */ = {
+		25B9929F2635ED2F976BEF96B53E154A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VVFrame;
+			target = BC93CE765D2F8E97A605CF185FF6FFA9 /* VVFrame */;
+			targetProxy = DE70962CDE72EA910CEA868F515B26B9 /* PBXContainerItemProxy */;
+		};
+		D4D447176D9FC2263BEFECC8AF90B122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VVAdapter;
 			target = BE0B2EC3700D2AEA46F2FCC65E082A88 /* VVAdapter */;
-			targetProxy = 7121518992F97B788A6B7D786024DD2F /* PBXContainerItemProxy */;
+			targetProxy = 593CD23791BF2F2FEA19F8B9291572F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06760B57BB6469DD92B1BE437AA31EF3 /* Debug */ = {
+		1E7CC69271EBA3325245B01A95660F3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5796131910A4591CD095D927E6ECFFA2 /* VVAdapter.debug.xcconfig */;
+			baseConfigurationReference = F2B7FF0938B23C71B4C9D0A478C841AB /* VVAdapter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VVAdapter/VVAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VVAdapter/VVAdapter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VVAdapter/VVAdapter.modulemap";
+				PRODUCT_MODULE_NAME = VVAdapter;
+				PRODUCT_NAME = VVAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		267BD7E2CBF3890903D502EAABDC9AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C689BDA3E811BED11C408962985F4627 /* Pods-VVAdapterDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VVAdapterDemo/Pods-VVAdapterDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VVAdapterDemo/Pods-VVAdapterDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AC4DA2E73C426E7DF38633D751C0339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E23090FA9D421DE8F26D08B4AF6672 /* VVAdapter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -356,80 +630,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		0C604796BF22AC7EDCD649E69AA04A26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B056FF6A545207A9061F2663E943708 /* Pods-VVAdapterDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VVAdapterDemo/Pods-VVAdapterDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VVAdapterDemo/Pods-VVAdapterDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		451715D7B727A0AB788E42A3DEB377A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE9DE8E4455D88291CBA5D0E59407621 /* VVAdapter.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VVAdapter/VVAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VVAdapter/VVAdapter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/VVAdapter/VVAdapter.modulemap";
-				PRODUCT_MODULE_NAME = VVAdapter;
-				PRODUCT_NAME = VVAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -493,9 +693,44 @@
 			};
 			name = Release;
 		};
-		8E03C15C5F09ED684C9CA057951A6591 /* Debug */ = {
+		B36EAFDC7FD719DD029D188D250F9140 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C689BDA3E811BED11C408962985F4627 /* Pods-VVAdapterDemo.debug.xcconfig */;
+			baseConfigurationReference = 673163DE6A6655A1D967764901EF2482 /* VVFrame.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VVFrame/VVFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VVFrame/VVFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VVFrame/VVFrame.modulemap";
+				PRODUCT_MODULE_NAME = VVFrame;
+				PRODUCT_NAME = VVFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC1F6714081BBD8D95A2CE0B8B7CCDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B056FF6A545207A9061F2663E943708 /* Pods-VVAdapterDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -525,10 +760,47 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		CCB61D4073DA869274D495CD44AB538E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C048977D8752C12FBF0F0DED479248 /* VVFrame.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VVFrame/VVFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VVFrame/VVFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VVFrame/VVFrame.modulemap";
+				PRODUCT_MODULE_NAME = VVFrame;
+				PRODUCT_NAME = VVFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -608,20 +880,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98717517425607E50A05BDA1F4997DBD /* Build configuration list for PBXNativeTarget "Pods-VVAdapterDemo" */ = {
+		6909546B02A25611079576E0FA240A9E /* Build configuration list for PBXNativeTarget "VVFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E03C15C5F09ED684C9CA057951A6591 /* Debug */,
-				0C604796BF22AC7EDCD649E69AA04A26 /* Release */,
+				B36EAFDC7FD719DD029D188D250F9140 /* Debug */,
+				CCB61D4073DA869274D495CD44AB538E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2653DAB02B4C0DA24D8C185972895AA /* Build configuration list for PBXNativeTarget "VVAdapter" */ = {
+		8555E042FD386A0A8ADD49A1B94CA799 /* Build configuration list for PBXNativeTarget "Pods-VVAdapterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06760B57BB6469DD92B1BE437AA31EF3 /* Debug */,
-				451715D7B727A0AB788E42A3DEB377A6 /* Release */,
+				267BD7E2CBF3890903D502EAABDC9AF1 /* Debug */,
+				CC1F6714081BBD8D95A2CE0B8B7CCDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E9D853592B62A96756357B2A75F44D /* Build configuration list for PBXNativeTarget "VVAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC4DA2E73C426E7DF38633D751C0339 /* Debug */,
+				1E7CC69271EBA3325245B01A95660F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

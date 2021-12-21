@@ -14,7 +14,7 @@ public struct VVZoom {
     }
 
     /// 转换 用于数值的等比例计算 如需自定义可重新设置
-    static var conversionClosure: ((Double) -> Double) = { (origin) in
+    public static var conversionClosure: ((Double) -> Double) = { (origin) in
         guard UIDevice.current.userInterfaceIdiom == .phone else {
             return origin
         }
@@ -31,7 +31,7 @@ public struct VVZoom {
 
 extension VVZoom {
 
-    static func conversion(_ value: Double) -> Double {
+    public static func conversion(_ value: Double) -> Double {
         return conversionClosure(value)
     }
 }

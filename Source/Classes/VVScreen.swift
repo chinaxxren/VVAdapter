@@ -2,21 +2,22 @@
 //  Copyright © 2021 chinaxxren. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 // https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/
 public struct VVScreen {
 
-    static var size: CGSize {
+    public static var size: CGSize {
         UIScreen.main.bounds.size
     }
-    static var nativeSize: CGSize {
+    public static var nativeSize: CGSize {
         UIScreen.main.nativeBounds.size
     }
-    static var scale: CGFloat {
+    public static var scale: CGFloat {
         UIScreen.main.scale
     }
-    static var nativeScale: CGFloat {
+    public static var nativeScale: CGFloat {
         UIScreen.main.nativeScale
     }
 }
